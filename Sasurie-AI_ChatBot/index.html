@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sasurie AI Chatbot</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- 💬 Chat Container -->
+    <div class="chat-container" id="chat-container">
+      <div class="chat-header">
+        <h1>🤖 Sasurie AI Support</h1>
+      </div>
+
+      <div class="chat-messages" id="chat-messages">
+        <div class="message bot-message fade-in">
+          <p>Hello! I'm your AI assistant. How can I help you today?</p>
+          <h4 style="color: red;">
+            Use this comment only:<br>
+            ➤ Hello<br>
+            ➤ Courses<br>
+            ➤ Hostel
+          </h4>
+        </div>
+      </div>
+
+      <div class="chat-input">
+        <input
+          type="text"
+          id="user-input"
+          placeholder="Type your message here..."
+        />
+        <button id="send-button">Send</button>
+      </div>
+    </div>
+
+    <button id="chat-toggle" class="chat-toggle">
+      <img src="image/robot1.png" alt="Chatbot" />
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
