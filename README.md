@@ -5,5 +5,5 @@
 🎨 Designed a clean, responsive interface featuring chat-style responses for a smooth and engaging user experience.
 🤖 Enhanced interactivity with dynamic responses and smart UI transitions for better user engagement.
 
-URL-https://scoechatbot.netlify.app/
+URL-[LIVE ON](https://sasurie-chatbot.netlify.app/)
 
